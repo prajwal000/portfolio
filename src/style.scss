@@ -6,19 +6,16 @@ $brand: #eb4a4c;
   margin: 0px;
   box-sizing: border-box;
   background: #000;
-}
-.font {
   font-family: "Poppins", sans-serif;
 }
+
 .bg-brand {
   background: $brand !important;
 }
 .text-brand {
   color: $brand !important;
 }
-.nav_font {
-  font-size: 17px;
-}
+
 .bg-main {
   background: #000;
 }
@@ -58,7 +55,9 @@ $brand: #eb4a4c;
     background-position: 200% center;
   }
 }
-
+.about {
+  height: 100vh;
+}
 .text-container {
   width: 1000px;
   padding: 10px;
@@ -136,4 +135,25 @@ $brand: #eb4a4c;
 }
 .about-head {
   text-underline-offset: 15px;
+}
+.icon {
+  color: #ccc;
+  cursor: pointer;
+  &:hover {
+    color: $brand;
+  }
+}
+//mobile responsive
+
+@media only screen and (max-width: 600px) {
+  .heading-font {
+    font-size: 70px;
+  }
+  .text-container {
+    max-width: 100%;
+  }
+  .about {
+    height: auto;
+    text-align: center;
+  }
 }
