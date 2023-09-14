@@ -24,6 +24,10 @@ function About() {
                 Location: Kathmandu,Nepal
                 <br />
                 Freelance: <span className="gradient-text ps-3">Available</span>
+                <br />
+                <a href="mailto:prajwalbaral001@gmail.com" nonce="not-spam">
+                  <button className="btn-brand">Contact me</button>
+                </a>
               </p>
             </div>
           </div>
