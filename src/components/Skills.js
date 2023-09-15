@@ -5,7 +5,7 @@ function Skills() {
   return (
     <>
       <Container>
-        <h2 className="font py-5 text-center text-brand text-decoration-underline about-head">
+        <h2 className="font pt-4 text-center text-brand text-decoration-underline about-head">
           Skills
         </h2>
 
