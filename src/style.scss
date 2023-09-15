@@ -55,12 +55,10 @@ $brand: #eb4a4c;
     background-position: 200% center;
   }
 }
-.about {
-  height: 100vh;
-}
+
 .text-container {
-  width: 1000px;
   padding: 10px;
+  width: 1060px;
   margin: auto;
 }
 
@@ -150,7 +148,7 @@ $brand: #eb4a4c;
     font-size: 70px;
   }
   .text-container {
-    max-width: 100%;
+    max-width: 100% !important;
   }
   .about {
     height: auto;
