@@ -40,7 +40,7 @@ function Contact() {
           </span>
           <span className="pb-4">
             <a
-              href="https://github.com/prajwal000?tab=repositories"
+              href="https://github.com/prajwal000"
               target="_blank"
               rel="noreferrer"
             >

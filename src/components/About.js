@@ -11,7 +11,12 @@ function About() {
           </h1>
           <div className="row py-5 align-items-center">
             <div className="col-lg-6 text-center">
-              <img src="assets/myphoto.png" alt="" width="300px" className="" />
+              <img
+                src="assets/myphoto.png"
+                alt="yourimage"
+                width="300px"
+                className=""
+              />
             </div>
             <div className="col-lg-6">
               <h2 className="gradient-text pt-4 font">React Developer</h2>
@@ -19,9 +24,9 @@ function About() {
               <p className="font text-white">
                 Email: Prajwalbaral001@gmail.com
                 <br />
-                Phone: +9779863614398
+                Phone: +977-9863614398
                 <br />
-                Location: Kathmandu,Nepal
+                Location: Nepal
                 <br />
                 Freelance: <span className="gradient-text ps-3">Available</span>
                 <br />
@@ -31,6 +36,7 @@ function About() {
               </p>
             </div>
           </div>
+
           <div className="text-white text-container">
             I'm a React developer with a year of professional experience. My
             expertise lies in crafting dynamic web applications with a strong

@@ -7,8 +7,8 @@ const HeroBanner = () => {
         <div className="Hero_banner text-center">
           <div>
             <h1 className="fw-bolder heading-font animate-charcter">
-              PRAJWAL <br />
-              BARAL
+              Prajwal <br />
+              Baral
             </h1>
             <div className="banner_2 mt-4">
               I am a

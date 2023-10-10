@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <HeroBanner />
       <About />
       <Skills />
+      <Portfolio />
       <Resume />
       <Contact />
     </>

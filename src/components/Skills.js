@@ -29,6 +29,7 @@ function Skills() {
             </div>
             <div className="py-3">
               <p className="text-white">CSS</p>
+
               <div
                 className="progress"
                 role="progressbar"
@@ -79,6 +80,7 @@ function Skills() {
           <div className="col-lg-6 p-5">
             <div className="py-3">
               <p className="text-white">React</p>
+
               <div
                 className="progress"
                 role="progressbar"
