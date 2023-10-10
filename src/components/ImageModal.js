@@ -18,7 +18,7 @@ function ImageModal(props) {
           <a href={liveDemo} target="_blank" rel="noreferrer">
             <button className="btn-brand2">See Live</button>
           </a>
-          {!github.length < 1 ? (
+          {github ? (
             <>
               <a
                 href={github}
