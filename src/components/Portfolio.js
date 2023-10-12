@@ -35,8 +35,7 @@ function Portfolio() {
                 <img
                   src={item.image}
                   alt=""
-                  className="hover-img px-2"
-                  width="400px"
+                  className="hover-img "
                   onClick={() =>
                     openImageModal(
                       item.image,

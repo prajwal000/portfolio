@@ -165,7 +165,9 @@ $brand: #eb4a4c;
   }
 }
 .hover-img {
+  max-width: 100%;
   transition: 0.5s;
+  max-width: 100%;
   &:hover {
     filter: brightness(40%);
   }
